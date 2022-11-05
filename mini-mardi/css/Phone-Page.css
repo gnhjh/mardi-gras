@@ -1,0 +1,206 @@
+/* || Desktop  */
+@media screen and (max-width:1300px) {
+
+    /* Container html */
+    .Container-of-html {
+        width: 100%;
+    }
+}
+
+/* || Leptop  */
+@media screen and (max-width:992px) {
+
+    /* || css/madia-page || img style */
+    img[alt='img-LightBox'] {
+        margin: 1rem;
+    }
+
+    /* || css/all-pages || card-style  */
+    .card {
+        width: 15rem;
+        height: 12rem;
+    }
+
+    /* img in card */
+    .card-img-top {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* Child Text Container */
+    .card div {
+        height: 10rem;
+        -webkit-transition: visibility 0s, opacity 0.3s linear;
+        transition: visibility 0s, opacity 0.3s linear;
+    }
+
+    .card:hover div {
+        width: 102%;
+        height: 102%;
+        padding: 4px;
+        font-size: 1rem;
+    }
+
+    .card .card-body a {
+        position: absolute;
+        bottom: 0px;
+        width: 97%;
+        border-radius: 20px;
+
+    }
+
+    .card .card-body .card-text {
+        height: 40%;
+    }
+
+    .card .card-body .card-title {
+        color: yellow;
+    }
+
+    /* end card */
+
+}
+
+/* || Tablet  */
+@media screen and (max-width:768px) {
+
+    .grid-parent-accordion {
+        display: block;
+    }
+
+    /* || css/contact-page || display:flex(form-minimap)  */
+    .grid-parent-box {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .mini-map {
+        height: 15rem;
+    }
+
+    /* || css/madia-page || grid-parent(gallary)*/
+    .parent-box-for-gallary {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+
+    /*  grid-parent(video)*/
+    .parent-video-YouTube {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .YouTube-video {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* || css/all-pages || cancel navbar */
+    nav {
+        display: none;
+    }
+
+    /*  enable  dropdown phone(navbar) */
+    .dropdown {
+        display: block;
+        background-color: black;
+        color: white;
+
+    }
+
+    .dropbtn {
+
+        background-color: #000000;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .dropbtn:hover,
+    .dropbtn:focus {
+        background-color: green;
+    }
+
+    .dropdown-content {
+        display: none;
+        box-shadow: 0px 8px 16px 0px rgba(59, 21, 21, 0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        background-color: rgb(0, 0, 0);
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown a:active {
+        background-image: linear-gradient(195deg, green, transparent, black);
+    }
+
+    .show {
+        display: block;
+    }
+
+    /* End dropdown */
+
+    /* || css/Index-Page || Change grid location */
+    .box-Of-Page {
+        grid-column-start: 1;
+        grid-column-end: -1;
+        grid-row-start: 6;
+        grid-row-end: 4;
+    }
+
+    .carousel {
+        display: none;
+    }
+
+    .img-replace-slider {
+        display: block;
+    }
+
+    .img-replace {
+        width: 100%;
+    }
+}
+
+
+
+/* || Phone */
+@media screen and (max-width:576px) {
+
+    /* || css/madia-page */
+    .AText-for-madia {
+        font-size: 2rem;
+    }
+
+    /*|| css/contact-page || Adjust card for Phone*/
+    textarea {
+        width: 100%;
+    }
+
+    /*|| css/Index-Page || Adjust card for Phone*/
+    .card {
+        width: 12rem;
+        height: 10rem;
+    }
+
+
+
+    .card .card-body .card-text {
+        font-size: 10px;
+        text-align: justify;
+        margin: 5px 0px;
+        height: 30%;
+    }
+}
