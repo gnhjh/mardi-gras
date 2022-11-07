@@ -15,7 +15,9 @@ h5,
 h6 {
    font-family: 'Pattaya', sans-serif;
 }
-
+a {
+    font-family: 'Henny Penny';
+}
 p {
     font-weight: 1rem;
     font-family: 'Roboto', sans-serif;
