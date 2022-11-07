@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 
-
 /* H+A-style */
 h1,
 h2,
@@ -13,13 +12,15 @@ h3,
 h4,
 h5,
 h6 {
-   font-family: 'Pattaya', sans-serif;
+    font-family: 'Pattaya', sans-serif;
 }
+
 a {
     font-family: 'Henny Penny';
 }
+
 p {
-    font-weight: 1rem;
+
     font-family: 'Roboto', sans-serif;
 }
 
