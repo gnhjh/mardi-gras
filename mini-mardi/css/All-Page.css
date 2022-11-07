@@ -4,9 +4,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
- font-family: 'Roboto', sans-serif;
-}
+
 
 /* H+A-style */
 h1,
@@ -16,10 +14,6 @@ h4,
 h5,
 h6 {
    font-family: 'Pattaya', sans-serif;
-}
-
-a {
-    font-family: 'Henny Penny';
 }
 
 p {
